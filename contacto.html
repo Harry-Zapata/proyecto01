@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+
+<body>
+    <nav class="toggle">
+        <div class="btn-toggle">
+                <button onclick="toggle()" id="toggleMenu">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+            
+            <div class="links" id="links">
+                <ul>
+                    <a href="index.html"><li>Inicio</li></a>
+                    <a href="servicios.html"><li>Servicios</li></a>
+                    <a href="acerca.html"><li>Acerca de</li></a>
+                    <a class="activate" href="contacto.html"><li>Contacto</li></a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav>
+        <ul>
+            <a href="index.html">
+                <li>Inicio</li>
+            </a>
+            <a href="servicios.html">
+                <li>Servicios</li>
+            </a>
+            <a href="acerca.html">
+                <li>Acerca de</li>
+            </a>
+            <a class="activate" href="contacto.html">
+                <li>Contacto</li>
+            </a>
+        </ul>
+    </nav>
+    <div id="main">
+        <div class="contacto">
+            <h2>Formulario de contacto</h2>
+            <form>
+                <div class="name">
+                    <label for="name">name</label><br>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="email">
+                    <label for="email">email</label><br>
+                    <input type="email" name="email" id="email">
+                </div>
+                <button>Enviar mensaje</button>
+            </form>
+        </div>
+
+        <footer>
+            <p>Copyright (c) 2017</p></br>
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
